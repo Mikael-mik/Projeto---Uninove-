@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-1.11.0.min.js"></script> 
+    <title>SISDATA</title>
+</head>
+<body>
+    <div class="login">
+        <h2> Painel de Acesso</h2><br>
+        <img src="data.png" alt="Entrar" class="logo"><br>
+        <form action="login.php" method="post">
+            <input id="inputindex" name='email' placeholder="Usuario" size="33px"><p>
+            <input id="inputindex" name='senha' type="password" placeholder="Senha" size="33px"><p>
+            <input class="btn_entrar" type="submit" value="Entrar">
+        </form>
+
+
+
+
+<br>
+        <div class="cadastro">
+            <a href="#" id="abrircadastro" style="text-decoration: none; font-weight: bold; color: white; font-size: 16pt; font-family: Arial, Helvetica, sans-serif;">Cadastre-se</a>
+         </div>
+    </div>
+
+    
+
+    <script>
+        $("#abrircadastro").click(function(){
+          $("#conteudocadastro").load("cadastro.php");
+        });
+    </script>
+    <div id="conteudocadastro"></div>
+</body>
+</html>

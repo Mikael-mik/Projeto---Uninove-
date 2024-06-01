@@ -1,0 +1,67 @@
+===Base de Dados sisdata
+
+== Estrutura da tabela cliente
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int|Não|
+|nome|varchar(254)|Não|
+|endereco|varchar(254)|Não|
+|cpf|varchar(254)|Não|
+|empresa|varchar(254)|Não|
+|contato|varchar(254)|Não|
+== Extraindo dados da tabela cliente
+
+|9|Felipe Siqueira Jr|RUA Alagoinha |33988854999|GotaLube|11 99999-9666
+|10|Fernando Perdero|Rua Monte Claro|333.999.666.11|FORTE_TRIX|11 9 9888-5666
+|21|Alex Sandro Silveste|Rua Sapopemba|338.772.718-63|DevTec|11 99885-44
+== Estrutura da tabela compraequipamentos
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int|Não|
+|modelo|varchar(254)|Não|
+|notafiscal|varchar(254)|Não|
+|fornecedor|varchar(254)|Não|
+|valor|varchar(254)|Não|
+== Extraindo dados da tabela compraequipamentos
+
+|6|GotaLube|11111111666|GotaLube|R$ 145,45
+|4|MegaTrust|11-00001/55|MegaDrive|R$ 700,00
+|5|NOVO00|11-00001/7777|Mercado LIVREEE|R$ 800,00
+== Estrutura da tabela fornecedor
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int|Não|
+|nome|varchar(254)|Não|
+|endereco|varchar(254)|Não|
+|cnpj|varchar(254)|Não|
+|empresa|varchar(254)|Não|
+|contato|varchar(254)|Não|
+== Extraindo dados da tabela fornecedor
+
+|15|watec|Guadalajara|25.248.755/37|watec|(57)57575-3666
+|12|casas bahia|rua silva|25.248.755/37|casas bahia|(12)57678-6666
+|10|Magazine Luiza|R Afonso Bovero, 35|25-1100001/55|Magazine Luiza|11 913399-9646
+== Estrutura da tabela usuario
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int|Não|
+|nome|varchar(254)|Não|
+|endereco|varchar(254)|Não|
+|telefone|varchar(254)|Não|
+|cpf|varchar(254)|Não|
+|email|varchar(254)|Não|
+|senha|varchar(254)|Não|
+== Extraindo dados da tabela usuario
+
+|1|Alex Sandro Silvestre de Souza|Rua Carlos Alberto Brada, 11285|11 998839574|33877271863|user33|123
+|2|Glauber Junior|Rua|11|338|cesar@celke.com.br|123456
+|3|Regiane de Souza|Rua Carlos |223344|1122334455|regiane@gmail.com|asdasdasdasdasdasd
+|4|Alex Sandro Silvester|R Carlos Algusto, 77|11 91339-9646|33877271863|alx.silvestre007@gmail.com|123

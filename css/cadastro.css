@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#input{
+    border-style: solid;
+    border-width: 1px;
+    width: 30vw;
+    height: 4vh;
+}
+.cadastro_form{
+    position: absolute;
+    background: rgb(65, 73, 180);
+    width: 37vw;
+    height: 67vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+.fechar_cadastro{
+    position: absolute;
+    top: 0.7vw;
+    left: 34.9vw;
+    color:#fff;
+    font-size: 17pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fechar_cadastro:hover{
+     color:#110101;
+}
